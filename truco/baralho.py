@@ -12,6 +12,8 @@ class Baralho:
 
     def criar(self):
 
+        self.cartas.clear()
+
         valores = [
             "4",
             "5",
@@ -44,9 +46,7 @@ class Baralho:
         if len(self.cartas) == 0:
             raise ValueError("O baralho está vazio.")
 
-        carta = random.choice(self.cartas)
-        self.cartas.remove(carta)
-
+        carta = self.cartas.pop()
         return carta
 
 

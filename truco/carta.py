@@ -5,4 +5,7 @@ class Carta:
         self.naipe = naipe
 
     def __str__(self):
-        return  f"{self.valor} de {self.naipe}"
+        return f"{self.valor} de {self.naipe}"
+
+    def __repr__(self):
+        return f"{self.valor} de {self.naipe}"

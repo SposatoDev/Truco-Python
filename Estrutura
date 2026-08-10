@@ -1,0 +1,18 @@
+Carta
+└── Representa uma carta
+
+Baralho
+├── Cria cartas
+├── Embaralha cartas
+└── Retira uma carta
+
+Jogador
+├── Possui cartas
+├── Recebe cartas
+└── Joga cartas
+
+Jogo
+├── Cria jogadores
+├── Cria baralho
+├── Distribui cartas
+└── Coordena a partida
